@@ -1,0 +1,13 @@
+{
+  "name": "consortiumsmartcontract",
+  "version": "1.0.0",
+  "description": "Consortium Smart Contract",
+  "main": "",
+  "scripts": {},
+  "author": "Eric Collazo",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

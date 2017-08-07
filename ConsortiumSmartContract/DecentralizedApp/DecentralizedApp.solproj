@@ -5,11 +5,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6CAFC0C6-A428-4d30-A9F9-700E829FEA51</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MyApplication</RootNamespace>
+    <RootNamespace>TestContract                 </RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <BlockchainServiceUrl>http://localhost:8000/</BlockchainServiceUrl>
-    <BlockchainUser>testuser</BlockchainUser>
-    <BlockchainPassword>testing</BlockchainPassword>
+    <BlockchainServiceUrl>http://bctestuih.eastus.cloudapp.azure.com:8545/</BlockchainServiceUrl>
+    <BlockchainUser>Alice</BlockchainUser>
+    <BlockchainPassword>jupiter1</BlockchainPassword>
     <Name>DecentralizedApp</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="package.json">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="samples\Payout.sol" />
     <Content Include="samples\SimpleDataFeed.sol" />
     <Content Include="samples\SimpleStorage.sol" />
